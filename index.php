@@ -69,7 +69,7 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
           <?php
-          $info = file_get_contents('http://bio.local/json.php');
+          $info = file_get_contents('/json.php');
           $aData = json_decode( $info );
           $search  = array('Á', 'É', 'Í', 'Ó', 'Ú', '(', ')');
           $replace = array('A', 'E', 'I', 'O', 'U', '', '');
