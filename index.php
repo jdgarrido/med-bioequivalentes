@@ -69,7 +69,8 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
           <?php
-          $info = file_get_contents('/json.php');
+          $domain = $_SERVER['SERVER_NAME'];
+          $info = file_get_contents('http://'.$domain.'/json.php');
           $aData = json_decode( $info );
           $search  = array('Á', 'É', 'Í', 'Ó', 'Ú', '(', ')');
           $replace = array('A', 'E', 'I', 'O', 'U', '', '');
