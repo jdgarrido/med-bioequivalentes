@@ -102,7 +102,7 @@
               <p>Principio Activo: <?php echo $d->{"Principio Activo"} ?></p>
               <p>Titular: <span class="label label-warning"><?php echo $d->{"Titular"} ?></span></p>
               <?php $aProd = explode(' ', $d->{"Producto"})  ?>
-              <p>Precio (?): <a href="http://www.preciosderemedios.cl/resultado_busq.php?pattern=<?php echo urlencode($aProd[0]) ?>&item=product" target="_blank"><?php echo $aProd[0] ?></a></p>
+              <p>Precio (<a href="#" data-toggle="tooltip" title="Los precios son referenciales.">?</a>): <a href="http://www.preciosderemedios.cl/resultado_busq.php?pattern=<?php echo urlencode($aProd[0]) ?>&item=product" target="_blank"><?php echo $aProd[0] ?></a></p>
               <a href="#overview">Subir</a>
             </div>
             <?php
