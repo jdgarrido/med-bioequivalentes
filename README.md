@@ -1,12 +1,12 @@
 Medicamenntos Bioequivalentes
 ===================
 
-Este pequeño script nos permite obtener los datos entregados por el Ministerio de Salud a través del Portal de Datos Abierto del Estado, en su dataset http://datos.gob.cl/datasets/ver/1303
+Este pequeño script nos permite obtener los datos entregados por el Ministerio de Salud a través del Portal de Datos Abierto del Estado, en su dataset http://datos.gob.cl/datasets/ver/1303 devolviendo una salida en JSON para su posterior consumo.
 
 Demo
 ====
 
-http://med-bioequivalentes.josegarrido.net
+http://examples.josegarrido.net/bioequivalentes/
 
 ##Licencia
 
